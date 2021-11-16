@@ -134,4 +134,15 @@ Do tworzenia użytkowników wykorzystany zostanie wzorzec projektowy metoda wytw
 
 Do komunikacji klienta z serwerem wykorzystany zostanie wzorzec projektowy Singleton.
 
+Obsługa zapytań pomiędzy użytkownikiem a serwerem odbędzie się przy użyciu Web API najnowszej wersji ASP.NET Core oraz Entity Framework Core.
+
+Interfejs REST API wykorzysta następujące operacje:
+
+    GET
+    POST
+    PUT
+    DELETE
+
+Operacje te pozwolą użytkownikom na wykonywanie akcji poprzez RESTful API, więc nasze Web API będzie zawierać te operacje.
+
 ![enter image description here](https://i.ibb.co/LYhCDzR/diagram.jpg)
